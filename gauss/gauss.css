@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  margin: 10px 0;
+}
+.resultConst {
+  margin-bottom: 10px;
+}
+.btnResultCon {
+  margin: 20px 0;
+  text-align: center;
+}
+.extended {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 20px 0;
+}
+.classA {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+}
+.classB {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 2px;
+}
+.resultContainer {
+  text-align: center;
+  font-size: 20px;
+}
+input {
+  max-width: 75px;
+  height: 100%;
+  /* border: none; */
+  background: none;
+  text-align: center;
+  font-size: 15px;
+}
